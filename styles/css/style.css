@@ -71,7 +71,7 @@ h2 {
   color: white;
   background-color: black;
 }
-.btn-info{
+.btn-info {
   font-size: 1.1rem;
   margin: 20px;
   font-weight: bold;
@@ -180,25 +180,115 @@ h2 {
   opacity: 1;
 }
 
-a{
- text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-
 /* articulos */
-.articulos{
+.articulos {
   min-height: 500px;
   padding: 30px;
 }
 
-.articulos .card{
+.articulos .card {
   width: 80%;
   max-width: 600px;
   margin: 20px;
 }
 
-.articulos .card-header{
+.articulos .card-header {
   font-weight: bold;
+}
+/* testimonios */
+.testimonios {
+  padding: 40px 40px 80px 40px;
+}
+.testimonios .carousel {
+  max-width: 800px;
+}
+.carousel-item {
+  height: 500px;
+}
+
+/* Crousel testimonios */
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.testimonio-imagen {
+  height: 150px;
+  width: 150px;
+  margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto {
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.testimonio-info {
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonio-info p{
+  margin-bottom: 0;
+}
+
+
+.testimonio-footer .cliente{
+  font-size: 1.2rem;
+}
+.testimonio-info .cargo{
+font-size: 0.9rem;
+color: darkslateblue;
+
+}
+/* contacto */
+.contacto .container{
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+.contacto .rectangulo{
+  margin-top: -5rem;
+  background-color: rgb(13,110,253);
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px;
+
+}
+
+.contacto .row{
+ width: 100%;
+ display: flex;
+ align-items: center; 
+}
+
+.contacto .descripcion{
+  color: white;
+  font-size: 1.2rem;
+}
+
+
+.contacto button{
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover{
+  background-color: whitesmoke;
+  color: black;
 }
 
 /* media query */
@@ -212,5 +302,16 @@ a{
 @media screen and (min-width: 700px) {
   .hero-inferior-imagen {
     max-width: 600px;
+  }
+}
+
+/* carousel */
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+ height: 120px;
+ width: 120px;
+  }
+  .testimonio-texto{
+    font-size: 18px;
   }
 }
