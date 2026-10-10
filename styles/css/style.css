@@ -1,0 +1,60 @@
+/* tipografia */
+@font-face {
+  font-family: "Avicii";
+  src: url("../fonts/avicii\ -\ font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* barra de navegacion */
+.navbar {
+  padding: 2rem;
+  background-color: whitesmoke;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* estilos generales */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 2.5rem;
+}
+
+/* seccion hero */
+.hero {
+  background-color: aliceblue;
+  min-height: 450px;
+  text-align: center;
+}
+.hero-principal {
+  padding: 3rem;
+}
+.hero-imagen-desarrollador {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 10px;
+
+}
+h2 {
+font-family: 'Avicii', sans-serif;
+  font-size: 1.5rem;
+  color: blue;
+    text-transform: uppercase;
+}
+
+/* media query */
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
