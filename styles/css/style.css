@@ -184,6 +184,23 @@ a{
  text-decoration: none;
 }
 
+
+/* articulos */
+.articulos{
+  min-height: 500px;
+  padding: 30px;
+}
+
+.articulos .card{
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.articulos .card-header{
+  font-weight: bold;
+}
+
 /* media query */
 @media screen and (max-width: 767px) {
   .navbar-brand {
