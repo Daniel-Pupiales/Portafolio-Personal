@@ -36,6 +36,16 @@ h1 {
   color: black;
   background-color: white;
 }
+.texto-negro {
+  color: black;
+}
+.texto-blanco {
+  color: white;
+}
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
 /* seccion hero */
 .hero {
   background-color: aliceblue;
@@ -60,6 +70,11 @@ h2 {
 .seccion-oscura {
   color: white;
   background-color: black;
+}
+.btn-info{
+  font-size: 1.1rem;
+  margin: 20px;
+  font-weight: bold;
 }
 /* sobre mi */
 .sobre-mi {
@@ -119,6 +134,54 @@ h2 {
   padding: 10px;
   border-radius: 50%;
   object-fit: contain;
+}
+
+/* proyectos */
+.proyectos-recientes {
+  padding: 40px;
+}
+
+.proyectos-recientes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.proyecto {
+  position: relative;
+}
+.proyecto:hover img {
+  opacity: 0.2;
+}
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+a{
+ text-decoration: none;
 }
 
 /* media query */
