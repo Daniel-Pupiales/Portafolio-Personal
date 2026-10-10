@@ -236,46 +236,42 @@ a {
   text-align: center;
 }
 
-.testimonio-info p{
+.testimonio-info p {
   margin-bottom: 0;
 }
 
-
-.testimonio-footer .cliente{
+.testimonio-footer .cliente {
   font-size: 1.2rem;
 }
-.testimonio-info .cargo{
-font-size: 0.9rem;
-color: darkslateblue;
-
+.testimonio-info .cargo {
+  font-size: 0.9rem;
+  color: darkslateblue;
 }
 /* contacto */
-.contacto .container{
+.contacto .container {
   max-width: 1100px;
   min-height: 200px;
   padding: 20px;
 }
-.contacto .rectangulo{
+.contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13,110,253);
+  background-color: rgb(13, 110, 253);
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px;
-
 }
 
-.contacto .row{
- width: 100%;
- display: flex;
- align-items: center; 
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
-.contacto .descripcion{
+.contacto .descripcion {
   color: white;
   font-size: 1.2rem;
 }
 
-
-.contacto button{
+.contacto button {
   color: white;
   font-weight: bold;
   background-color: transparent;
@@ -286,11 +282,51 @@ color: darkslateblue;
   transition: all 0.2s ease-in-out;
 }
 
-.contacto button:hover{
+.contacto button:hover {
   background-color: whitesmoke;
   color: black;
 }
 
+/* footer */
+footer {
+  min-height: 500px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.iconos-redes a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.icono-redes {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.icono-redes a:hover {
+  background-color: white;
+  border: 2px solid rgb(red green blue);
+}
+.derechos-autor {
+  font-size: 15px;
+  color: aliceblue;
+  padding: 20px;
+}
 /* media query */
 @media screen and (max-width: 767px) {
   .navbar-brand {
@@ -308,10 +344,10 @@ color: darkslateblue;
 /* carousel */
 @media screen and (max-width: 800px) {
   .testimonio-imagen {
- height: 120px;
- width: 120px;
+    height: 120px;
+    width: 120px;
   }
-  .testimonio-texto{
+  .testimonio-texto {
     font-size: 18px;
   }
 }
