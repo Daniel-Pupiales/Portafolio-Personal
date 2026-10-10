@@ -4,7 +4,6 @@
   src: url("../fonts/avicii\ -\ font.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-
 }
 
 /* barra de navegacion */
@@ -29,6 +28,14 @@ h1 {
   font-size: 2.5rem;
 }
 
+.seccion-texto {
+  font-size: 1.5rem;
+  padding: 8px;
+}
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
 /* seccion hero */
 .hero {
   background-color: aliceblue;
@@ -43,18 +50,87 @@ h1 {
   height: 200px;
   border-radius: 50%;
   padding: 10px;
-
 }
 h2 {
-font-family: 'Avicii', sans-serif;
+  font-family: "Avicii", sans-serif;
   font-size: 1.5rem;
   color: blue;
-    text-transform: uppercase;
+  text-transform: uppercase;
+}
+.seccion-oscura {
+  color: white;
+  background-color: black;
+}
+/* sobre mi */
+.sobre-mi {
+  height: 500px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+/* experiencia */
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+.experiencia .columna {
+  padding: 20px;
+  border: 2px slod #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s ease-in;
+}
+.experiencia .columna:hover {
+  color: white;
+  background-color: green;
+}
+.experiencia .row div {
+  background-color: aqua;
+  border: 3px solid;
+  border-color: black;
+}
+
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 5px;
+}
+
+/* iconos */
+.iconos {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 175, 175);
+  padding: 10px;
+  border-radius: 50%;
+  object-fit: contain;
 }
 
 /* media query */
 @media screen and (max-width: 767px) {
   .navbar-brand {
     display: none;
+  }
+}
+
+/* hero inf img */
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
   }
 }
