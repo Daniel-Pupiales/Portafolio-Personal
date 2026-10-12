@@ -65,9 +65,10 @@ a {
 }
 
 .hero-principal {
-  padding: 2rem;
+  padding: 2rem 1rem;
+  width: 100%;
+  max-width: 100%;
 }
-
 
 .hero-imagen-desarrollador {
   max-width: 100%;
