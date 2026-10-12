@@ -1,5 +1,5 @@
 const sr = ScrollReveal({
-  distance: "20px",
+  distance: "10px",
   easing: "cubic-bezier(0.68,-0.55,0.265,1.55)",
   reset: false,
 });
@@ -18,12 +18,12 @@ sr.reveal(".footer", {
 
 sr.reveal(".reveal-left", {
   origin: "left",
-  distance: "20px",
+  distance: "10px",
   delay: 200,
 });
 
 sr.reveal(".reveal-right", {
   origin: "right",
-  distance: "20px",
+  distance: "10px",
   delay: 400,
 });
