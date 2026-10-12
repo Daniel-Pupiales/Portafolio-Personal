@@ -1,3 +1,7 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 /* tipografia */
 @font-face {
   font-family: "Avicii";
@@ -77,7 +81,6 @@ a {
 
 .btn-info {
   font-size: 1.1rem;
-  margin: 10px;
   font-weight: bold;
 }
 

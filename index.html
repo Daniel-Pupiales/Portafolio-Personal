@@ -20,48 +20,47 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md fixed-top shadow-sm">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbar-toggler"
-          aria-controls="navbar-toggler"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-toggler">
-          <a class="navbar-brand" href="#">
-            <img
-              src="img/person-circle.svg"
-              alt="Logo de la página web"
-              width="50px"
-            />
-          </a>
-          <ul
-            class="navbar-nav d-flex justify-content-center align-items-center ms-auto"
-          >
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#sobre-mi"
-                >Sobre Mí</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#proyectos">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#habilidades"> Habilidades</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacto"> Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+   <nav class="navbar navbar-expand-md fixed-top shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img
+        src="img/person-circle.svg"
+        alt="Logo de la página web"
+        width="50"
+        height="50"
+      />
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbar-toggler"
+      aria-controls="navbar-toggler"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar-toggler">
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre Mí</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#habilidades">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
     <!-- seccion hero -->
     <section id="sobre-mi" class="hero align-items-stretch py-5 bg-light">
@@ -81,29 +80,25 @@
         </h2>
       </div>
       <!-- botones de accion -->
-      <div class="container mt-4">
-        <div class="row">
-          <div
-            class="col-12 d-flex flex-column flex-md-row justify-content-center align-content-center align-items-center gap-3"
-          >
-            <button type="button" class="btn btn-info texto-negro">
-              <a href="#proyectos">Proyectos</a>
-            </button>
-            <button type="button" class="btn btn-info">
-              <a href="#habilidades"> Habilidades </a>
-            </button>
-            <button type="button" class="btn btn-info">
-              <a href="#contacto"> Contacto</a>
-            </button>
 
-            <button type="button" class="btn btn-info">
-              <a href="Daniel_Pupiales_CV.pdf" target="_blank">
-                Descargar Portafolio en PDF
-              </a>
-            </button>
-          </div>
-        </div>
-      </div>
+<div class="container mt-4">
+  <div class="row">
+    <div
+      class="col-12 d-flex flex-column flex-md-row justify-content-center align-items-center gap-2"
+    >
+      <a href="#proyectos" class="btn btn-info texto-negro">Proyectos</a>
+      <a href="#habilidades" class="btn btn-info">Habilidades</a>
+      <a href="#contacto" class="btn btn-info">Contacto</a>
+      <a
+        href="Daniel_Pupiales_CV.pdf"
+        target="_blank"
+        class="btn btn-info"
+      >
+        Descargar CV
+      </a>
+    </div>
+  </div>
+</div>
     </section>
 
     <!-- Seccion tarjetas proyectos -->
