@@ -164,8 +164,24 @@ section {
 }
 
 /* media query */
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    display: block;
+  }
+
+  .hero {
+    min-height: 450px;
+    padding: 6rem 2rem 2rem;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .navbar-brand {
     display: none;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 5rem 1rem 2rem;
   }
 }
